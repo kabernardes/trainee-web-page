@@ -5,4 +5,5 @@
 
 @import 'elements/_links.css';
 @import 'elements/_body.css';
-@import 'elements/_buttons.css';
+
+@import 'components/button';

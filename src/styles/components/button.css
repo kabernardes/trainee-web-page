@@ -1,0 +1,29 @@
+.button{
+  color: var(--black);
+  border-color: var(--light-green);
+  border-style: solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: var(--font-base);
+  font-weight: bolder;
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 50%;
+}
+
+.button--static:hover{
+  background-color: var(--light-green);
+  color:var(--white);
+}
+
+.button--active, button:active{
+  background-color: var(--light-green);
+  color:var(--white);
+  cursor: default;
+}
+
