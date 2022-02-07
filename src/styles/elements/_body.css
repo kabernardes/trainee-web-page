@@ -1,5 +1,5 @@
 body {
   color: var(--black);
-  font: var(--body-font);
-  font-size: var(--body-font);
+  font-family: var(--body-font);
+  font-size: var(--font-size);
 }
