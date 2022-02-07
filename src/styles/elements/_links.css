@@ -1,0 +1,8 @@
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--light-blue);
+}

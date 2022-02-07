@@ -1,2 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quicksand:wght@300&display=swap');
+
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
+
+@import 'settings/_settings.css';
+
+@import 'elements/_links.css';
+@import 'elements/_body.css';
+@import 'elements/_buttons.css';

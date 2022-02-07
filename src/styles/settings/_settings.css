@@ -1,0 +1,21 @@
+:root {
+  /*colors*/
+  --yellow-1: #ffe21d;
+  --yellow-2: #ffd21d;
+  --light-blue: #24afff;
+  --dark-blue: #248bff;
+  --light-red: #f26c6c;
+  --light-green: #27b667;
+  --black: #000000;
+  --white: #ffffff;
+
+  /* FONTS */
+  --title-font:'Quicksand', sans-serif;
+  --body-font: 'Montserrat', sans-serif;
+
+  /* FONTS-SIZE */
+  --font-size: 20px;
+  --title-font-size: 30px;
+}
+
+
