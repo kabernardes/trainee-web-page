@@ -16,7 +16,7 @@
   opacity: 50%;
 }
 
-.button--static:hover{
+.button--general:hover{
   background-color: var(--light-green);
   color:var(--white);
 }
@@ -27,3 +27,17 @@
   cursor: default;
 }
 
+.button--form{
+  border-color: var(--dark-blue);
+}
+
+.button--form--active:hover{
+  background-color: var(--dark-blue);
+  color:var(--white);
+}
+
+.button--form--pressed{
+  background-color: var(--dark-blue);
+  color:var(--white);
+  cursor: default;
+}
