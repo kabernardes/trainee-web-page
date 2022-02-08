@@ -8,5 +8,5 @@
 @import 'elements/_links.css';
 @import 'elements/_body.css';
 
-@import 'components/button';
-@import 'components/input';
+@import 'components/_button';
+@import 'components/_input';
