@@ -1,0 +1,21 @@
+.header{
+  font-family: var(--header-font);
+  font-size: var(--title-font-size);
+  font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.header__image{
+  width: 20%;
+
+}
+
+.header__button{
+  font-family: var(--header-font);
+  font-size: var(--title-font-size);
+  width: 200px;
+  height: 50px;
+}

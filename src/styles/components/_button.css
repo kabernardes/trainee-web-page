@@ -1,7 +1,7 @@
 .button{
   color: var(--black);
-  border-color: var(--light-green);
-  background-color: var(--white);
+  border-color: var(--dark-red);
+  background-color: transparent;
   border-style: solid;
   border-radius: 10px;
   width: 100px;
@@ -18,12 +18,12 @@
 }
 
 .button--general:hover{
-  background-color: var(--light-green);
+  background-color: var(--dark-red);
   color:var(--white);
 }
 
 .button--active, button--general:active{
-  background-color: var(--light-green);
+  background-color: var(--dark-red);
   color:var(--white);
   cursor: default;
 }

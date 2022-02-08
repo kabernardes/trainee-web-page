@@ -1,8 +1,8 @@
 a {
-  color: var(--dark-blue);
+  color: var(--black);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--light-blue);
+  color: var(--dark-red);
 }
