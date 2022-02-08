@@ -1,6 +1,7 @@
 .button{
   color: var(--black);
   border-color: var(--light-green);
+  background-color: var(--white);
   border-style: solid;
   border-radius: 10px;
   width: 100px;
@@ -21,7 +22,7 @@
   color:var(--white);
 }
 
-.button--active, button:active{
+.button--active, button--general:active{
   background-color: var(--light-green);
   color:var(--white);
   cursor: default;
@@ -36,7 +37,7 @@
   color:var(--white);
 }
 
-.button--form--pressed{
+.button--form--pressed, button--form:active{
   background-color: var(--dark-blue);
   color:var(--white);
   cursor: default;
