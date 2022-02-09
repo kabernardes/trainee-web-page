@@ -1,0 +1,14 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 80%;
+  background-color: var(--white);
+  border-radius: 10%;
+}
+
+.form__input{
+  margin:20px;
+  width: 80%;
+}

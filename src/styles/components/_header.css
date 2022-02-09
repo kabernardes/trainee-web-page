@@ -10,13 +10,5 @@
 
 .header__image{
   width: 20%;
-
 }
 
-.header__button{
-  text-align: center;
-  font-family: var(--header-font);
-  font-size: var(--title-font-size);
-  width: 200px;
-  height: 50px;
-}

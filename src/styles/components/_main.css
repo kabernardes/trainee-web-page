@@ -1,6 +1,5 @@
 .main{
   display: flex;
-  justify-content: left;
   align-content: center;
 }
 .main__title{
@@ -8,4 +7,11 @@
   font-size: var(--title-main-size);
   font-style: oblique;
   color: var(--white);
+}
+
+.main--form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

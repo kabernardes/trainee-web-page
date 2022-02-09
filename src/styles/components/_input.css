@@ -22,7 +22,7 @@
   opacity: 50%;
 }
 
-.input--error, input:invalid {
+.input--error:invalid {
   border-color:var(--dark-red);
   background-color: var(--light-red);
   opacity: 50%;

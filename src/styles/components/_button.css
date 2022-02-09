@@ -1,14 +1,16 @@
 .button{
   color: var(--black);
-  border-color: var(--dark-red);
   background-color: transparent;
+  border-color: var(--dark-red);
   border-style: solid;
   border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  width: 200px;
+  height: 50px;
   margin: 5px;
   cursor: pointer;
-  font-family: var(--font-base);
+  text-align: center;
+  font-family: var(--header-font);
+  font-size: var(--title-font-size);
   font-weight: bolder;
 }
 
@@ -17,28 +19,28 @@
   opacity: 50%;
 }
 
-.button--general:hover{
+.button:hover{
   background-color: var(--dark-red);
   color:var(--white);
 }
 
-.button--active, button--general:active{
+.button:active{
   background-color: var(--dark-red);
   color:var(--white);
   cursor: default;
 }
 
 .button--form{
-  border-color: var(--dark-blue);
+  border-color: var(--black);
 }
 
-.button--form--active:hover{
-  background-color: var(--dark-blue);
+.button--form:hover{
+  background-color: var(--black);
   color:var(--white);
 }
 
-.button--form--pressed, button--form:active{
-  background-color: var(--dark-blue);
+.button--form:active{
+  background-color: var(--dark-red);
   color:var(--white);
   cursor: default;
 }
