@@ -1,15 +1,15 @@
 .button{
   color: var(--black);
-  border-color: var(--dark-red);
   background-color: transparent;
+  font-family: var(--font-base);
+  font-weight: 900;
+  border-color: var(--dark-red);
   border-style: solid;
   border-radius: 10px;
   width: 100px;
   height: 30px;
   margin: 5px;
   cursor: pointer;
-  font-family: var(--font-base);
-  font-weight: 900;
 }
 
 .button:disabled{
@@ -22,9 +22,8 @@
   color:var(--white);
 }
 
-.button--active, button--general:active{
+.button--active, .button--general:active{
   background-color: var(--dark-red);
-
   color:var(--white);
   cursor: default;
 }
