@@ -1,21 +1,24 @@
 .input{
   border-style: solid;
   border-radius: 10px;
-  width: 200px;
+  border-color: var(--dark-red);
+  color: var(--black);
+  width: 90%;
   height: 30px;
-  margin: 5px;
+  margin: 20px;
   font-family: var(--font-base);
   font-weight: bolder;
+  font-size: var(--font-size);
   text-align: center;
   outline: none;
 }
 
-.input--active:focus{
-  border-color: var(--yellow-1);
+.input:focus, .input--active:focus{
+  border-color: var(--black);
 }
 
 .input--pressed{
-  border-color: var(--yellow-1);
+  border-color: var(--black);
 }
 
 .input:disabled{
@@ -34,7 +37,7 @@
   opacity: 50%;
 }
 
-.input-attention, input:out-of-range{
+.input-attention, .input:out-of-range{
   border-color:var(--yellow-1);
   background-color: var(--yellow-2);
   opacity: 50%;
