@@ -14,6 +14,7 @@
 }
 
 .header__button{
+  text-align: center;
   font-family: var(--header-font);
   font-size: var(--title-font-size);
   width: 200px;
