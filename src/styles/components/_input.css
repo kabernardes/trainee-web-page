@@ -1,4 +1,4 @@
-.input{
+.input {
   border-style: solid;
   border-radius: 10px;
   font-family: var(--font-base);
@@ -10,15 +10,15 @@
   margin: 5px;
 }
 
-.input--active:focus{
+.input--active:focus {
   border-color: var(--yellow-1);
 }
 
-.input--pressed{
+.input--pressed {
   border-color: var(--yellow-1);
 }
 
-.input:disabled{
+.input:disabled {
   opacity: 50%;
 }
 
@@ -28,7 +28,7 @@
   opacity: 50%;
 }
 
-.input--sucess:valid{
+.input--sucess:valid {
   border-color:var(--light-green);
   background-color: var(--dark-green);
   opacity: 50%;

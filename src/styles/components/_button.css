@@ -1,4 +1,4 @@
-.button{
+.button {
   color: var(--black);
   background-color: transparent;
   font-family: var(--font-base);
@@ -12,32 +12,32 @@
   cursor: pointer;
 }
 
-.button:disabled{
+.button:disabled {
   cursor: not-allowed;
   opacity: 50%;
 }
 
-.button--general:hover{
+.button--general:hover {
   background-color: var(--dark-red);
   color:var(--white);
 }
 
-.button--active, .button--general:active{
+.button--active, .button--general:active {
   background-color: var(--dark-red);
   color:var(--white);
   cursor: default;
 }
 
-.button--form{
+.button--form {
   border-color: var(--dark-blue);
 }
 
-.button--form--active:hover{
+.button--form--active:hover {
   background-color: var(--dark-blue);
   color:var(--white);
 }
 
-.button--form--pressed, .button--form:active{
+.button--form--pressed, .button--form:active {
   background-color: var(--dark-blue);
   color:var(--white);
   cursor: default;
