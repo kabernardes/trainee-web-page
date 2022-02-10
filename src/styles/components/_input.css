@@ -1,0 +1,41 @@
+.input {
+  border-style: solid;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+  font-family: var(--font-base);
+  font-weight: bolder;
+  text-align: center;
+  outline: none;
+}
+
+.input--active:focus {
+  border-color: var(--yellow-1);
+}
+
+.input--pressed {
+  border-color: var(--yellow-1);
+}
+
+.input:disabled {
+  opacity: 50%;
+}
+
+.input--error, input:invalid {
+  border-color:var(--dark-red);
+  background-color: var(--light-red);
+  opacity: 50%;
+}
+
+.input--sucess:valid {
+  border-color:var(--light-green);
+  background-color: var(--dark-green);
+  opacity: 50%;
+}
+
+.input-attention, input:out-of-range {
+  border-color:var(--yellow-1);
+  background-color: var(--yellow-2);
+  opacity: 50%;
+}

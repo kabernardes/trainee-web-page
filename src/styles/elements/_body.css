@@ -2,4 +2,5 @@ body {
   color: var(--black);
   font-family: var(--body-font);
   font-size: var(--font-size);
+  background-color: var(--pale-blue);
 }

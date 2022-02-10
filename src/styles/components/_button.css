@@ -1,0 +1,44 @@
+.button {
+  color: var(--black);
+  border-color: var(--light-green);
+  background-color: var(--white);
+  border-style: solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+  font-family: var(--font-base);
+  font-weight: 900;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 50%;
+}
+
+.button--general:hover {
+  background-color: var(--light-green);
+  color:var(--white);
+}
+
+.button--active, .button--general:active {
+  background-color: var(--light-green);
+  color:var(--white);
+  cursor: default;
+}
+
+.button--form {
+  border-color: var(--dark-blue);
+}
+
+.button--form--active:hover {
+  background-color: var(--dark-blue);
+  color:var(--white);
+}
+
+.button--form--pressed, .button--form:active {
+  background-color: var(--dark-blue);
+  color:var(--white);
+  cursor: default;
+}

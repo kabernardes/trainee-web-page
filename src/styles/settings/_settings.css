@@ -5,9 +5,12 @@
   --light-blue: #24afff;
   --dark-blue: #248bff;
   --light-red: #f26c6c;
+  --dark-red: #ee3636;
   --light-green: #27b667;
+  --dark-green: #00a74b;
   --black: #000000;
   --white: #ffffff;
+  --pale-blue: #e6e9ee;
 
   /* FONTS */
   --title-font:'Quicksand', sans-serif;
