@@ -1,4 +1,4 @@
-.input {
+.input, .input--design{
   border-style: solid;
   border-radius: 10px;
   border-color: var(--dark-red);
@@ -13,25 +13,32 @@
   outline: none;
 }
 
-.input:focus, .input--active:focus {
+.input--design {
+  width: 200px;
+  height: 50px;
+  font-size: var(--input-design-font-size);
+  margin: 5px;
+}
+
+.input:focus, .input--design--1:focus {
   border-color: var(--black);
 }
 
-.input--pressed {
+.input--design--pressed {
   border-color: var(--black);
 }
 
-.input:disabled {
+.input--design:disabled, .input:disabled {
   opacity: 50%;
 }
 
-.input--error:invalid {
+.input--design--error, .input--design--error:invalid {
   border-color:var(--dark-red);
   background-color: var(--light-red);
   opacity: 50%;
 }
 
-.input--sucess:valid {
+.input--design--sucess, .input:valid {
   border-color:var(--light-green);
   background-color: var(--dark-green);
   opacity: 50%;
