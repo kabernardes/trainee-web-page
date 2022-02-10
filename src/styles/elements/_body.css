@@ -1,5 +1,6 @@
 body {
   color: var(--black);
+  background-color: var(--pale-blue);
   font-family: var(--body-font);
   font-size: var(--font-size);
   background-color: var(--pale-blue);

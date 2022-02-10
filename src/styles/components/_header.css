@@ -1,4 +1,4 @@
-.header{
+.header {
   font-family: var(--header-font);
   font-size: var(--title-font-size);
   font-weight: 900;
@@ -8,7 +8,6 @@
   height: 100px;
 }
 
-.header__image{
+.header__image {
   width: 20%;
 }
-

@@ -1,4 +1,4 @@
-.button{
+.button {
   color: var(--black);
   background-color: transparent;
   border-color: var(--dark-red);
@@ -15,31 +15,31 @@
 }
 
 .button:disabled {
-  cursor: default;
+  cursor: not-allowed;
   opacity: 50%;
 }
 
-.button:hover{
+.button:hover {
   background-color: var(--dark-red);
   color:var(--white);
 }
 
-.button:active{
+.button:active {
   background-color: var(--dark-red);
   color:var(--white);
   cursor: default;
 }
 
-.button--form{
+.button--form {
   border-color: var(--black);
 }
 
-.button--form:hover{
+.button--form:hover {
   background-color: var(--black);
   color:var(--white);
 }
 
-.button--form:active{
+.button--form:active {
   background-color: var(--dark-red);
   color:var(--white);
   cursor: default;

@@ -1,4 +1,4 @@
-.input{
+.input {
   border-style: solid;
   border-radius: 10px;
   border-color: var(--dark-red);
@@ -11,17 +11,20 @@
   font-size: var(--font-size);
   text-align: center;
   outline: none;
+  width: 200px;
+  height: 30px;
+  margin: 5px;
 }
 
-.input:focus, .input--active:focus{
+.input:focus, .input--active:focus {
   border-color: var(--black);
 }
 
-.input--pressed{
+.input--pressed {
   border-color: var(--black);
 }
 
-.input:disabled{
+.input:disabled {
   opacity: 50%;
 }
 
@@ -31,13 +34,13 @@
   opacity: 50%;
 }
 
-.input--sucess:valid{
+.input--sucess:valid {
   border-color:var(--light-green);
   background-color: var(--dark-green);
   opacity: 50%;
 }
 
-.input-attention, .input:out-of-range{
+.input-attention, .input:out-of-range {
   border-color:var(--yellow-1);
   background-color: var(--yellow-2);
   opacity: 50%;
