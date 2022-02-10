@@ -4,16 +4,13 @@
   border-color: var(--dark-red);
   color: var(--black);
   width: 90%;
-  height: 30px;
+  height: 40px;
   margin: 20px;
   font-family: var(--font-base);
   font-weight: bolder;
   font-size: var(--font-size);
   text-align: center;
   outline: none;
-  width: 200px;
-  height: 30px;
-  margin: 5px;
 }
 
 .input:focus, .input--active:focus {
