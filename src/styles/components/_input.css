@@ -22,7 +22,7 @@
   opacity: 50%;
 }
 
-.input--error, .input:invalid{
+.input--error, .input:invalid {
   border-color:var(--dark-red);
   background-color: var(--light-red);
   opacity: 50%;
@@ -34,7 +34,7 @@
   opacity: 50%;
 }
 
-.input-attention, .input:out-of-range{
+.input-attention, .input:out-of-range {
   border-color:var(--yellow-1);
   background-color: var(--yellow-2);
   opacity: 50%;
