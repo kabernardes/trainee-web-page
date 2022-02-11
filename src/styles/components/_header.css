@@ -6,8 +6,13 @@
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  padding: 20px;
 }
 
 .header__image {
   width: 20%;
+}
+
+.header__link {
+  text-shadow: 2px 2px var(--black);
 }

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: flex-start;
   align-content: center;
+  height: cover;
 }
 .main__title {
   font-family: var(--main-font-title);
