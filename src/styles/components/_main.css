@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80vh;
+}
+.main__title {
+  font-family: var(--main-font-title);
+  font-size: var(--title-main-size);
+  font-style: oblique;
+  color: var(--white);
+}
