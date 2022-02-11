@@ -12,3 +12,7 @@
 .header__image {
   width: 20%;
 }
+
+.header__link {
+  text-shadow: 2px 2px var(--black);
+}
