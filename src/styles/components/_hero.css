@@ -1,7 +1,5 @@
 .hero {
   background: url(../../images/background-image.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-
-

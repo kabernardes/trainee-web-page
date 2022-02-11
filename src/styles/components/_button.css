@@ -1,5 +1,5 @@
 .button {
-  color: var(--black);
+  color: var(--white);
   background-color: transparent;
   font-family: var(--font-base);
   font-weight: 900;
@@ -19,7 +19,7 @@
 
 .button--general:hover {
   background-color: var(--dark-red);
-  color:var(--white);
+  color:var(--black);
 }
 
 .button--active, .button--general:active {
