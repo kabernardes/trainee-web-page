@@ -13,12 +13,12 @@
   --pale-blue: #e6e9ee;
 
   /* FONTS */
-  --title-font:'Quicksand', sans-serif;
+  --header-font:'Quicksand', sans-serif;
   --body-font: 'Montserrat', sans-serif;
+  --main-font-title: 'Anton', sans-serif;
 
   /* FONTS-SIZE */
   --font-size: 20px;
   --title-font-size: 30px;
+  --title-main-size: 60px;
 }
-
-

@@ -1,15 +1,15 @@
 .button {
-  color: var(--black);
-  border-color: var(--light-green);
-  background-color: var(--white);
+  color: var(--white);
+  background-color: transparent;
+  font-family: var(--font-base);
+  font-weight: 900;
+  border-color: var(--dark-red);
   border-style: solid;
   border-radius: 10px;
   width: 100px;
   height: 30px;
   margin: 5px;
   cursor: pointer;
-  font-family: var(--font-base);
-  font-weight: 900;
 }
 
 .button:disabled {
@@ -18,12 +18,12 @@
 }
 
 .button--general:hover {
-  background-color: var(--light-green);
-  color:var(--white);
+  background-color: var(--dark-red);
+  color:var(--black);
 }
 
 .button--active, .button--general:active {
-  background-color: var(--light-green);
+  background-color: var(--dark-red);
   color:var(--white);
   cursor: default;
 }

@@ -5,6 +5,10 @@
 
 @import 'elements/_links';
 @import 'elements/_body';
+@import 'elements/_nav';
 
 @import 'components/_button';
 @import 'components/_input';
+@import 'components/_hero';
+@import 'components/_header';
+@import 'components/_main';
