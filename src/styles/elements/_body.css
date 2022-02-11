@@ -4,4 +4,5 @@ body {
   font-family: var(--body-font);
   font-size: var(--font-size);
   padding: 20px;
+  height: 100vh;
 }
