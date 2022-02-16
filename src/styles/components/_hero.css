@@ -3,3 +3,18 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.hero--section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero--section__title {
+  font-family: var(--main-font-title);
+  font-size: var(--title-main-size);
+  font-style: oblique;
+  color: var(--white);
+}

@@ -8,19 +8,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>Web App</title>
   </head>
-  <body class="hero" >
-    <div>
-      <header class="header">
+  <body>
+    <div class= "hero">
+      <header id="header"class="header">
         <img class="header__image" src="images/logo-codeminer42.svg" alt="CodeMiner42 Logo"/>
         <nav>
-          <a class="header__link">HOME</a>
-          <a class="header__link">ABOUT</a>
-          <a class="header__link">BENEFITS</a>
+          <a href="#header" class="header__link">HOME</a>
+          <a href="#" class="header__link">ABOUT</a>
+          <a href="#" class="header__link">BENEFITS</a>
         </nav>
-        <button class="header__button button button--general">APPLY NOW</button>
+        <a href="#form" class="button">APPLY NOW</a>
       </header>
-      <main class="main">
-        <h1 class="main__title">Trainee Program 2022</h1>
+      <main>
+        <section class="hero--section">
+          <h1 class="hero--section__title">Trainee Program 2022</h1>
+        </section>
+        <section id="form" class="section--form">
+          <form>
+            <h2>APPLY HERE</h2>
+            <p>We would love to work with you...</p>
+            <input class="input"type="text" placeholder="Type your complete name here." required/>
+            <input class="input" type="email" patttern="username@domain" placeholder="Type your email here." required/>
+            <input class="input" type="number" placeholder="Select your age here."min="18" max="100" required/>
+            <textarea class="input" rows="5" placeholder="Tell us about yourself..." required></textarea>
+            <button type="submit" class="button button--form">SEND</button>
+          </form>
+        </section>
       </main>
     </div>
   </body>
