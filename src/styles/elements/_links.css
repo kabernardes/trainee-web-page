@@ -2,7 +2,6 @@ a {
   color: var(--white);
   text-decoration: none;
   cursor: pointer;
-  text-shadow: 2px 2px var(--black);
 }
 
 a:hover {

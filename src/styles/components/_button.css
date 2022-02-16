@@ -1,44 +1,54 @@
-.button {
+.button, .button--design {
   color: var(--white);
   background-color: transparent;
-  font-family: var(--font-base);
-  font-weight: 900;
   border-color: var(--dark-red);
   border-style: solid;
   border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  width: 200px;
+  height: 50px;
   margin: 5px;
   cursor: pointer;
+  text-align: center;
+  font-family: var(--header-font);
+  font-size: var(--title-font-size);
+  font-weight: bolder;
 }
 
-.button:disabled {
+.button--design--disabled, .button:disabled {
   cursor: not-allowed;
   opacity: 50%;
 }
 
-.button--general:hover {
+.button--design--hover:hover, .button:hover {
   background-color: var(--dark-red);
   color:var(--black);
 }
 
-.button--active, .button--general:active {
+.button--design--active, .button:active {
   background-color: var(--dark-red);
+  color:var(--white);
+  cursor: default;
+}
+
+.button--design--2 {
+  border-color: var(--black);
+}
+
+.button--design--2--hover:hover {
+  background-color: var(--black);
+  color:var(--white);
+}
+
+.button--design--2--active, .button--form:active {
+  background-color: var(--black);
   color:var(--white);
   cursor: default;
 }
 
 .button--form {
-  border-color: var(--dark-blue);
+  color: var(--black);
 }
 
-.button--form--active:hover {
-  background-color: var(--dark-blue);
-  color:var(--white);
-}
-
-.button--form--pressed, .button--form:active {
-  background-color: var(--dark-blue);
-  color:var(--white);
-  cursor: default;
+.button--form:hover {
+  color: var(--white);
 }
